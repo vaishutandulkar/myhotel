@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>My HTML CSS project</title>
+<style>
+    body {
+       background-image: url(/images/stone.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: none;
+    }
+    
+
+    #navbar a {
+        margin-left: 100px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: transparent;
+
+    }
+
+    .logo {
+
+        display: inline-block;
+        height: 80px;
+        padding: 10px;
+        background-color: white;
+        width: 1360px;
+
+
+
+    }
+
+    .container a {
+        background-color: rgba(26, 21, 21, 0.995);
+        width: 40%;
+        position: relative;
+        bottom: 35px;
+        left: 600px;
+  
+
+
+    }
+
+
+
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+
+
+    .head1 {
+        font-style: calc();
+        font-family: serif;
+        font-size: xx-larger;
+        letter-spacing: 10px;
+        color: rgb(30, 24, 24);
+        background-color: rgba(128, 128, 128, 0.477);
+        margin-top: 250px;
+        text-align: center;
+       
+        
+    }
+
+
+
+    .head3 {
+        font-style: calc();
+        font-family: serif;
+        letter-spacing: 10px;
+        color: black;
+        background-color: rgba(128, 128, 128, 0);
+
+    }
+
+
+    .para1 {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        font-style: normal;
+        font-size: 25px;
+        padding: 50px;
+    }
+
+    .para2 {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        font-style: normal;
+        font-size: 25px;
+        padding: 50px;
+    }
+
+    .para2 img {
+        background-color: white;
+        margin: 10px;
+
+    }
+
+
+    .img1 {
+        height: 400px;
+        /* width: auto; */
+    }
+
+    .para3 {
+        background-color:rgba(255, 255, 255, 0.8);
+        text-align: center;
+        font-style: normal;
+        font-size: 25px;
+        padding: 50px;
+    }
+
+    #navbar a:hover {
+        background-color: grey;
+        color: white;
+
+    }
+
+    button {
+        text-decoration: none;
+        border: none;
+        background-color: white;
+        width: 100px;
+        margin: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: serif;
+        font-size: medium;
+    }
+
+    button:hover {
+        background-color: rgba(247, 238, 238, 0.172);
+
+
+    }
+
+    button {
+        padding: 10px;
+        background-color: rgba(80, 75, 75, 0.668);
+        width: 200px;
+        font-size: large;
+        margin: 28px;
+
+    }
+
+    .gallery img {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.728);
+    }
+
+
+
+    #navbar a {
+        /* padding: 10px; */
+        border-radius: 10px;
+
+    }
+
+    
+
+    .span {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-right: 5px;
+        width: 90%;
+    }
+
+    .img1:hover {
+        animation: pulse;
+        animation-duration: 1s;
+    }
+
+    
+
+    .sub {
+        
+        margin: 0px;
+
+    }
+
+    /* .sub:hover {
+        background-color: rgba(0, 100, 0, 0.79);
+    } */
+
+    .fa {
+        color: rgb(31, 27, 27);
+    }
+
+#foot{
+      width: 100%;
+      height: 200px;
+      background-color: rgb(34, 124, 92);
+        color: antiquewhite;
+       
+    }
+    .img{
+      border-radius: 70px;
+    }
+   
+    
+    ul{
+      list-style: none;
+    }
+    li{
+margin: 20px;
+    }
+
+    .order1{
+    float: left;
+   width: 300px;
+   height: 100px;
+   margin: 40px;
+
+
+    }
+    .order2{
+    float: left;
+    margin: 40px;
+    
+    }
+    .order3{
+    float: left;
+    width: 600px;
+   height: 100px;
+   margin: 40px;
+  
+
+    
+    }
+   
+</style>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="/images/hotellogo.avif" alt="" width="100px" height="70px" />
+
+                <div id="navbar">
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Photos">Photos</a>
+                    <a href="#Contact us">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="Home"></section>
+    <div class="head1">
+
+        <h1 class="animate_animated animate_backInLeft"><b>STONE WOOD HOTEL AND RESORTS</b></h1></center>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section id="About"></section>
+    <div class="para1">
+
+        <br>
+
+        <p style="text-align: center;"><b> About</b></p><br>
+        <center><p><p><b>A Beachside Sanctuary in Morjim</b></p>
+        <br>
+        <p>crowned the habitat of Olive Ridley sea turtles and a plethora <br>of birds, Morjim is a charming town in the state of Goa. It is known to<br> attract locals as well as tourists from around the globe, thanks to its pristine<br> beaches, serene surroundings and ecstatic nightlife. Its placement in North<br> Goa cannot be any more perfect. Morjim is glorified by the exquisite restaurants, shacks,<br> bars, riveting beaches and a variety of other scenic landmarks in<br> the area, like Morjim Beach, Ashwem Beach, Burger Factory<br> and Chapora Fort.
+  
+          If you are visiting this spirited side of Goa, Stone Wood Village<br> Resort in Morjim welcomes you to an indelible beachside stay. Ensconced<br> in comfort, in the lap of lush greenery and nature, guests are treated to<br> well-appointed rooms that give way to brilliant views of the beach and the surrounding<br> lawn. Beautifully decorated with an outdoor swimming pool and lush green gardens,<br> our Morjim resort enables you to bask in all the glory of beach life!
+          Note: The swimming pool of Stone Wood Village Resort, Morjim will<br> be under maintenance from 2nd May to 8th May 2023.
+          </p></CENTER>
+
+    </div>
+    <section id="Photos"></section>
+    <div class="para2">
+        <br>
+        <p><b> Photos</b></p>
+        <span class="span">
+
+
+            <a href="livingroom.html"><button class="btn1">Living Room</button></a>
+
+            <a href="diningn.html"><button class="btn1">diningn</button></a>
+
+            <a href="facilites.html"><button class="btn1">facilites</button></a><br>
+
+            <a href="gallary.html"><button class="btn1">gallary</button></a>
+
+            <a href="contactus.html"><button class="btn1">contact us</button></a>
+
+        </span>
+        <br>
+        <br>
+        <br><br>
+
+        <span>
+            <div class="gallery">
+                <img class="img1"
+                    src="/images/va1.png"
+                    alt="">
+                <img class="img1"
+                    src="/images/va2.jpg"
+                    alt="">
+                <img class="img1"
+                    src="/images/va3.jpeg"
+                    alt="">
+                <img class="img1"
+                    src="/images/va4.webp"
+                    alt="">
+                <img class="img1"
+                    src="/images/va5.webp"
+                    alt="">
+                <img class="img1"
+                    src="/images/va6.jpg"
+                    alt="">
+            </div>
+        </span>
+
+    </div>
+    <div>
+        <section id="Contact us"></section>
+        <div class="para3">
+            <br>
+            <p> <b>Contact us</b></p>
+            <br><br><br>
+            <span>   
+            </span>
+        </div>
+        <div id="foot">
+        <div class="order1">
+            <ul class=>
+          <li>Home</li>
+          <li>stone Wood Village Resort, Morjim</li>
+          <li>Room</li>
+          <li>Dining</li>
+          <li>facilites</li>
+            </ul>
+            
+          </div>
+          
+
+          <div class="order2">
+            <ul >
+      <li>Gallary</li>
+      <li>Location</li>
+      <li>Contact</li>
+      <li>offers</li>
+      <li>Manage Booking</li>
+            </ul>
+        </div>
+        <div  class="order3">
+            <ul>
+              <li>reservationvillage@stonewoodresort.com</li>
+              <li>+91 9112001715 |Hotel Contat Number</li>
+              <li>+91 9004306901 |Hotel Contact Number</li>
+              <li>Get in touch</li> 
+             <li><img src="/images/facebook.png" alt="" width="40px" height="40px"></li>
+             <li><img src="/images/insta.png" alt="" width="40px" height="40px"></li>
+            </ul>
+        </div>
+      
+        </div>
+</body>
+
+</html>

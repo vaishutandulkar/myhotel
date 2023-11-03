@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.754" height="38.448" viewBox="0 0 37.754 38.448">
+  <g id="chat" transform="translate(-3.366)">
+    <g id="Group_2132" data-name="Group 2132" transform="translate(3.366)">
+      <g id="Group_2131" data-name="Group 2131" transform="translate(0)">
+        <path id="Path_1657" data-name="Path 1657" d="M22.331,0c-.01.01-.031.01-.062.01A18.861,18.861,0,0,0,7.476,30.626l-2.75,6.387a1.025,1.025,0,0,0,.536,1.349,1.047,1.047,0,0,0,.587.072l10.085-1.772a18.174,18.174,0,0,0,6.284,1.092A18.877,18.877,0,0,0,22.331,0Zm-.1,35.7a16.536,16.536,0,0,1-5.82-1.061.988.988,0,0,0-.546-.052L7.373,36.075l2.246-5.223a1.036,1.036,0,0,0-.165-1.082A16.469,16.469,0,0,1,6.59,25.011a16.819,16.819,0,1,1,32.48-6.222v.062A16.864,16.864,0,0,1,22.228,35.7Z" transform="translate(-3.366)" fill="#545554"/>
+      </g>
+    </g>
+    <g id="Group_2134" data-name="Group 2134" transform="translate(14.831 15.112)">
+      <g id="Group_2133" data-name="Group 2133">
+        <path id="Path_1658" data-name="Path 1658" d="M121.259,146.7H115.7a1.03,1.03,0,0,0,0,2.06h5.563a1.03,1.03,0,1,0,0-2.06Z" transform="translate(-114.666 -146.7)" fill="#545554"/>
+      </g>
+    </g>
+    <g id="Group_2136" data-name="Group 2136" transform="translate(14.831 20.263)">
+      <g id="Group_2135" data-name="Group 2135">
+        <path id="Path_1659" data-name="Path 1659" d="M128.47,196.7H115.7a1.03,1.03,0,0,0,0,2.06H128.47a1.03,1.03,0,0,0,0-2.06Z" transform="translate(-114.666 -196.7)" fill="#545554"/>
+      </g>
+    </g>
+  </g>
+</svg>
